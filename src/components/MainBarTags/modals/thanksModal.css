@@ -1,0 +1,88 @@
+/* ThanksModal */
+
+.main-containerTks {
+    margin-top: 3em;
+    width: 100%;
+}
+
+#thks-margin {
+    text-align: left;
+    font-weight: bolder;
+}
+
+.thks-container {
+    margin: 0 auto;
+    margin-bottom: 8em;
+    width: 85%;
+    height: 100%
+}
+
+.thks-message {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282c3474;
+    color: whitesmoke;
+    width: 81em;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 25em;
+}
+
+#signUp-text {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+#thks-image {
+    height: 23rem;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .main-containerTks {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    #thks-margin {
+        text-align: center;
+    }
+    
+    .thks-message {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #signUp-text {
+        margin: 0;
+        font-size: large;
+    }
+
+    #thks-image {
+        width: 17rem;
+        height: 17rem;
+        margin: 0;
+    }
+}
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+
+}
