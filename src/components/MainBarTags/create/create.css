@@ -17,3 +17,29 @@
     height: 40em;
     border-radius: 8px
 }
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .create-container {
+        height: 33rem;
+    }
+
+    #cons-image {
+        width: 10em;
+        height: 15em;
+    }
+}
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+
+}
