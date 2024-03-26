@@ -15,7 +15,6 @@ const ModalConct = ({ closeModal }) => {
                 navigate("/thankyou")
                 console.log(res);
             }).catch(err => console.log(err))
-
     }
 
     return (
