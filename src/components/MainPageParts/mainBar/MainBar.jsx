@@ -20,7 +20,7 @@ const NavList = () => (
                                 color: isActive ? "red" : "white",
                                 borderBottom: isActive ? "1px lightgray solid" : "none",
                             };
-                        }}><Link reloadDocument className='nav-link' to={"/deploy_ucbp"}>Home</Link>
+                        }}><Link reloadDocument className='nav-link' to={"/"}>Home</Link>
                     </NavLink>
                 </div>
                 <div className="list-margin">

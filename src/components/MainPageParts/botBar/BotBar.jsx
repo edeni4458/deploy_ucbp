@@ -14,7 +14,7 @@ const BotBar = () => {
                     <div class="">
                         <div class="bottom-bar_nav">
                             <div class="bottom-nav">
-                                <p><Link reloadDocument className='nav-link_bottom' to={"/deploy_ucbp"}>Home</Link></p>
+                                <p><Link reloadDocument className='nav-link_bottom' to={"/"}>Home</Link></p>
                                 <p><Link reloadDocument to={"/about"} className='nav-link_bottom'>About</Link></p>
                                 <p><Link reloadDocument to={"/UCBP"} className='nav-link_bottom'>Episodes</Link></p>
                             </div>
