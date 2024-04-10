@@ -43,7 +43,25 @@
 
 /* Ipad Mini */
 @media screen and (max-width: 768px) {
+    .mid-about-div {
+        flex-direction: column;
+        height: 50rem;
+    }
 
+    .subText > p {
+        padding: .5rem;
+        margin-top: 0;
+    }
+
+    #img-size {
+        width: 17rem;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    .support-text-container > h6 {
+        margin-bottom: 1rem;
+    }
 }
 
 /* Phone */

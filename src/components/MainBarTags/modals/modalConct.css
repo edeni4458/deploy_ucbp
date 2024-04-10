@@ -1,7 +1,7 @@
 /* ModalConct */
 .modalBackground {
     background-color: rgba(0, 0, 0, 0.5);
-    position:fixed;
+    position: fixed;
     height: 110%;
     width: 100%;
     top: 0;
@@ -113,13 +113,10 @@ input {
 
 
 /* Ipad Pro */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {}
 
-}
 /* Ipad Mini */
-@media screen and (max-width: 768px) {
-
-}
+@media screen and (max-width: 768px) {}
 
 /* Phone */
 @media screen and (max-width: 550px) {
@@ -129,6 +126,8 @@ input {
 }
 
 /* An Even Smaller Phone */
-@media screen and (max-width: 360px) {
-
+@media screen and (max-width: 375px) {
+    .modalContainer {
+        height: 80vh;
+    }
 }

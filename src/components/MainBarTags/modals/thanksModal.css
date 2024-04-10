@@ -109,6 +109,7 @@
     .main-containerTks {
         width: 100%;
         padding: 2rem;
+        height: 100vh;
     }
 
     #thks-margin {
@@ -140,6 +141,7 @@
     .main-containerTks {
         width: 100%;
         padding: 2rem;
+        height: 100vh;
     }
 
     #thks-margin {

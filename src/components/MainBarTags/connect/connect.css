@@ -122,7 +122,11 @@ a {
 @media screen and (max-width: 1024px) {}
 
 /* Ipad Mini */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .main-connect-con {
+        height: 100vh;
+    }
+}
 
 /* Phone */
 @media screen and (max-width: 550px) {
