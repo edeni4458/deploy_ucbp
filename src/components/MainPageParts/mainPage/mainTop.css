@@ -12,7 +12,7 @@
 
 .slider-container {
     margin: 0 auto;
-    width: 100%;
+    width: 40%;
     display: flex;
     justify-content: center;
 
@@ -22,8 +22,8 @@
     height: 23em;
     object-fit: fill;
     text-align: center;
-    width: 70%;
-    margin-left: 3.5rem;
+    width: 80%;
+    margin-left: 2.5rem;
     margin-bottom: 2em;
     border-radius: 10px;
 }
@@ -32,8 +32,8 @@
     height: 23em;
     object-fit: cover;
     text-align: center;
-    width: 70%;
-    margin-left: 3.5rem;
+    width: 80%;
+    margin-left: 2.5rem;
     margin-bottom: 2rem;
     border-radius: 10px;
 }
@@ -44,7 +44,7 @@
 }
 
 .slider-set-main {
-    width: 25%;
+    width: 50%;
     margin-left: 25em;
 
 }
@@ -55,6 +55,7 @@
     font-weight: 600;
     text-decoration: none;
     color: aliceblue;
+    text-align: center;
 }
 
 .slider-title {
@@ -181,12 +182,11 @@
     .slider-set-main {
         width: 70%;
         text-align: center;
-        margin-right: 25rem;
     }
 
     .slider-container {
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
     }
 
     .slider-set {
@@ -196,13 +196,13 @@
     .mid-pic {
         height: 18em;
         width: 12em;
-        margin-left: 2.6rem;
+        margin-left: 2rem;
     }
 
     .mid-picB {
         height: 18em;
         width: 12em;
-        margin-left: 2.6rem;
+        margin-left: 2rem;
     }
 
     .slider-link {
@@ -228,7 +228,6 @@
     .slider-set-main {
         width: 70%;
         text-align: center;
-        margin-right: 25rem;
 
     }
 
@@ -240,13 +239,13 @@
     .mid-pic {
         height: 18em;
         width: 12em;
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
 
     .mid-picB {
         height: 18em;
         width: 12em;
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
 
     .slider-link {

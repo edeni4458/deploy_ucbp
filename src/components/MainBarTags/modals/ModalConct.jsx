@@ -8,9 +8,11 @@ import './modalConct.css'
 const ModalConct = ({ closeModal }) => {
     const navigate = useNavigate()
 
+    
+
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm("ucbp", "template_u66g93f", e.target, "wKhF1Jo161NykecSP")
+        emailjs.sendForm("emmanuel_set-up", "ucbp", e.target, "wKhF1Jo161NykecSP")
             .then(res => {
                 navigate("/thankyou")
                 console.log(res);
@@ -27,7 +29,7 @@ const ModalConct = ({ closeModal }) => {
                     <form onSubmit={sendEmail} action="" method="post">
                         <div className="modal-labels">
                             <label className="font-sizeUp">fullname</label>
-                            <input required className="font-sizeUp" type="text" name="code-name" />
+                            <input required className="font-sizeUp" type="text" name="fullname" />
                             <label className="font-sizeUp" >email</label>
                             <input required  className="font-sizeUp" type="email" name="email" />
                             <label className="font-sizeUp">leave us a note</label>

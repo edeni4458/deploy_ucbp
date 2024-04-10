@@ -44,11 +44,64 @@
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px) {
+    .main-containerTks {
+        width: 100%;
+        padding: 2rem;
+        height: 100vw;
+    }
 
+    #thks-margin {
+        text-align: center;
+    }
+    
+    .thks-message {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #signUp-text {
+        margin: 0;
+        font-size: large;
+    }
+
+    #thks-image {
+        width: 17rem;
+        height: 17rem;
+        margin: 0;
+    }
 }
 /* Ipad Mini */
 @media screen and (max-width: 768px) {
+    .main-containerTks {
+        width: 100%;
+        padding: 2rem;
+    }
 
+    #thks-margin {
+        text-align: center;
+    }
+    
+    .thks-message {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #signUp-text {
+        margin: 0;
+        font-size: large;
+    }
+
+    #thks-image {
+        width: 17rem;
+        height: 17rem;
+        margin: 0;
+    }
 }
 
 /* Phone */
@@ -83,6 +136,32 @@
 }
 
 /* An Even Smaller Phone */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
+    .main-containerTks {
+        width: 100%;
+        padding: 2rem;
+    }
 
+    #thks-margin {
+        text-align: center;
+    }
+    
+    .thks-message {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #signUp-text {
+        margin: 0;
+        font-size: large;
+    }
+
+    #thks-image {
+        width: 15rem;
+        height: 15rem;
+        margin: 0;
+    }
 }
