@@ -10,7 +10,7 @@ const ModalConct = ({ closeModal }) => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm("ucbp-email_01", "template_u66g93f", e.target, "wzzKVrdZYqUxw693V")
+        emailjs.sendForm("ucbp", "template_u66g93f", e.target, "wKhF1Jo161NykecSP")
             .then(res => {
                 navigate("/thankyou")
                 console.log(res);
@@ -26,12 +26,12 @@ const ModalConct = ({ closeModal }) => {
                 <div className="title">
                     <form onSubmit={sendEmail} action="" method="post">
                         <div className="modal-labels">
-                            <label className="font-sizeUp">code-name</label>
-                            <input className="font-sizeUp" type="text" name="code-name" />
+                            <label className="font-sizeUp">fullname</label>
+                            <input required className="font-sizeUp" type="text" name="code-name" />
                             <label className="font-sizeUp" >email</label>
-                            <input className="font-sizeUp" type="email" name="email" />
+                            <input required  className="font-sizeUp" type="email" name="email" />
                             <label className="font-sizeUp">leave us a note</label>
-                            <input className="font-sizeUp" type="textarea" rows="4" name="message"></input>
+                            <input required  className="font-sizeUp" type="textarea" rows="4" name="message"></input>
                         </div>
                         <div className="action-btns">
                             <button className="cancel-btn" onClick={() => closeModal(false)}>cancel</button>
