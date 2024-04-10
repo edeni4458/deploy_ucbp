@@ -8,7 +8,6 @@ import Create from './components/MainBarTags/create/Create';
 import Spotify from './components/MainBarTags/ucbpEpisodes/Spotify';
 import UCBPepisodes from './components/MainBarTags/ucbpEpisodes/UCBPepisodes';
 import ThanksModal from './components/MainBarTags/modals/ThanksModal';
-
 import MainBar from './components/MainPageParts/mainBar/MainBar';
 import BotBar from './components/MainPageParts/botBar/BotBar';
 import MainPage from './components/MainPageParts/mainPage/MainPage';
@@ -24,7 +23,7 @@ function App() {
     <div className="App">
       <MainBar></MainBar>
       <Routes>
-        <Route exact path="/deploy_ucbp" element={<MainPage />} />
+        <Route exact path="/" element={<MainPage />} />
         <Route exact path='/create' element={<Create />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/connect' element={<Connect />} />

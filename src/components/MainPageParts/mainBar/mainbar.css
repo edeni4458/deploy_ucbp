@@ -70,6 +70,12 @@
 #nav-title {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+#nav-title-Link {
+    text-decoration: none;
+    color: white;
 }
 
 #ucbp-logo {
