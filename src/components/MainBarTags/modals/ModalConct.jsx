@@ -33,7 +33,7 @@ const ModalConct = ({ closeModal }) => {
                             <label className="font-sizeUp" >email</label>
                             <input required  className="font-sizeUp" type="email" name="email" />
                             <label className="font-sizeUp">leave us a note</label>
-                            <input required  className="font-sizeUp" type="textarea" rows="4" name="message"></input>
+                            <input required  className="font-sizeUp" type="textarea" rows="10" name="message"></input>
                         </div>
                         <div className="action-btns">
                             <button className="cancel-btn" onClick={() => closeModal(false)}>cancel</button>

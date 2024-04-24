@@ -6,14 +6,41 @@ import spotify from '../../../images/spotify.jpg'
 import apple from '../../../images/apple-vec.png'
 import google from '../../../images/google-pods.png'
 import podchaser from '../../../images/podchaser.png'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../mainPage/mainPage.css'
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
+
 const MainPage = () => {
+    const [scrolled, setScrolled] = useState(false);
+    const [yellowScroll, setYellowScroll] = useState(false);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 50;
+            setScrolled(isScrolled);
+        };
 
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    },);
+
+    useEffect(() => {
+        const controlScroll = () => {
+            const hasScrolled = window.scrollY > 300;
+            setYellowScroll(hasScrolled);
+        };
+
+        window.addEventListener('scroll', controlScroll);
+
+        return () => {
+            window.removeEventListener('scroll', controlScroll);
+        };
+    });
 
 
     return (
@@ -30,7 +57,7 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="top-sub-container">
+            <div className={`top-sub-container ${scrolled ? 'fade-in' : ''}`}>
                 <div className="social-media-links">
                     <div className="social-media-cards">
                         <a href="https://www.youtube.com/@UnderTheCardboardBox" target='_blank' rel="noreferrer"><img className='home-image-U' src={youtube} alt="Spotify logo" /></a>
@@ -53,9 +80,9 @@ const MainPage = () => {
                 </div>
             </div>
             <div className="first-mid-width">
-                <Container>
+                <Container >
                     <h3 className='mid-header'>Here are the top viewed episodes.</h3>
-                    <div className="video-flex">
+                    <div className={`video-flex ${yellowScroll ? 'fade-in-yellow' : ''}`}>
                         <div className="">
                             <iframe className='fav-episodes' src="https://www.youtube.com/embed/-0zVUhJ84cs?si=0C7UBQU7fzIDhBf8" title="Episode 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             <h4 className='episode-title'>Episode 1</h4>

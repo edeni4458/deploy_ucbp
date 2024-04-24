@@ -17,8 +17,10 @@ const NavList = () => (
                         style={({ isActive, isPending }) => {
                             return {
                                 borderTop: isActive ? "1px lightgray solid" : "none",
-                                color: isActive ? "red" : "white",
+                                color: isActive ? "#F63E02" : "white",
                                 borderBottom: isActive ? "1px lightgray solid" : "none",
+                                fontSize: isActive ? "20px" : "",
+                                fontWeight: isActive ? "bolder" : "none",
                             };
                         }}><Link reloadDocument className='nav-link' to={"/"}>Home</Link>
                     </NavLink>
@@ -29,8 +31,9 @@ const NavList = () => (
                         style={({ isActive, isPending }) => {
                             return {
                                 borderTop: isActive ? "1px lightgray solid" : "none",
-                                color: isActive ? "red" : "white",
+                                color: isActive ? "#F63E02" : "white",
                                 borderBottom: isActive ? "1px lightgray solid" : "none",
+                                fontSize: isActive ? "20px" : "",
                             };
                         }}><Link reloadDocument to={"/about"} className='nav-link'>About</Link>
                     </NavLink>
@@ -41,8 +44,9 @@ const NavList = () => (
                         style={({ isActive, isPending }) => {
                             return {
                                 borderTop: isActive ? "1px lightgray solid" : "none",
-                                color: isActive ? "red" : "white",
+                                color: isActive ? "#F63E02" : "white",
                                 borderBottom: isActive ? "1px lightgray solid" : "none",
+                                fontSize: isActive ? "20px" : "",
                             };
                         }}><Link reloadDocument to={"/UCBP"} className='nav-link'>Episodes</Link>
                     </NavLink>
@@ -53,18 +57,28 @@ const NavList = () => (
                         style={({ isActive, isPending }) => {
                             return {
                                 borderTop: isActive ? "1px lightgray solid" : "none",
-                                color: isActive ? "red" : "white",
+                                color: isActive ? "#F63E02" : "white",
                                 borderBottom: isActive ? "1px lightgray solid" : "none",
+                                fontSize: isActive ? "20px" : "",
                             };
                         }}>
                         <Link reloadDocument to={"/news"} className='nav-link'>CB News</Link>
                     </NavLink>
                 </div>
-                <button className='btn btn-outline-danger'>
-                    <div className="">
-                        <Link reloadDocument to={"/connect"} className='nav-link-2'>Connect</Link>
-                    </div>
-                </button>
+                <div className="list-margin">
+                    <NavLink className="nav-link_decoration" reloadDocument to="/connect"
+                        end
+                        style={({ isActive, isPending }) => {
+                            return {
+                                borderTop: isActive ? "1px lightgray solid" : "none",
+                                color: isActive ? "#F63E02" : "white",
+                                borderBottom: isActive ? "1px lightgray solid" : "none",
+                                fontSize: isActive ? "20px" : "",
+                            };
+                        }}>
+                        <Link reloadDocument to={"/connect"} className='nav-link'>Connect</Link>
+                    </NavLink>
+                </div>
             </div>
         </div>
     </>

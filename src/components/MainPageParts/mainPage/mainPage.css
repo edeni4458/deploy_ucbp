@@ -1,31 +1,34 @@
   /* Main page */
 
 .main-container {
-    margin-top: 3em;
+    margin-top: 10rem;
     height: 100%;
     width: 100%;
 }
 
 
 .first-top-width {
-    height: 23.2em;
-    width: 90%;
+    height: 25rem;
+    width: 100%;
     margin: 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
-    border-radius: 10px;
-    border: 1px solid lightgray;
+    background: linear-gradient(to top right,black, #30353e);
     margin-bottom: 5em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 5px 5px 10px rgba(104, 102, 102, 0.8);
 }
 
 .sub-text {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    
+}
+
+#link-to-connect {
+    color: #d01919;
+    cursor: pointer;
+    text-decoration: none;
+
 }
 
 .fix-image {
@@ -48,9 +51,17 @@
 .top-sub-container {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
     margin: 0 auto;
     width: 80%;
+    height: 30vh;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.9s ease;
 }
 
 
@@ -66,11 +77,11 @@
 }
 
 .social-media-cards {
-    background-color: rgba(245, 245, 245, 0.285);
+    background: linear-gradient(to bottom right,black, #30353e);
     margin: 1em;
     border-radius: 10px;
     position: relative;
-    transition: 0.7s;
+    transition: 0.5s;
     width: 5em;
     height: 5em;
     border: 1px solid #ff8833;
@@ -78,7 +89,7 @@
 
 .social-media-cards:hover {
     transform: scale(1.1);
-    background-color: #ff88335d;
+    background: #fd791a79;
 }
 
 .home-image-U {
@@ -99,7 +110,7 @@
     height: 32em;
     max-height: 50em;
     width: clamp(100%, 100%, 100%);
-    background: linear-gradient(to bottom right, #ff8833, #fffa66);
+    background-color: #FAA300;
     display: flex;
     margin-top: 10.5em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -110,14 +121,24 @@
     justify-content: center;
     margin-top: 4em;
     gap: 12em;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    background-image: url(../../../images/lineBg2.png);
+    background-position:right;
+    background-repeat: none;
+}
+
+.fade-in-yellow {
+    opacity: 1;
+    transition: opacity 1.5s ease;
 }
 
 .fav-episodes {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     border-radius: 10%;
     position: relative;
-    transition: 1.0s;
+    transition: 0.5s;
     z-index: 3;
 }
 
@@ -131,7 +152,7 @@
 .episode-title {
     text-align: center;
     margin-top: 1.5em;
-    color: white;
+    color: #6E6362;
     font-weight: bolder;
     width: 100%;
 }
@@ -149,23 +170,12 @@
 
 } */
 
-#link-to-connect {
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-#link-to-connect:hover {
-    color: darkred;
-    cursor: pointer;
-}
 
 .mid-header {
     text-align: left;
     margin-top: 2em;
     font-weight: bolder;
-    border-bottom: 3px solid lightgray;
+    color: #6E6362;
     width: 16.5em;
 }
 
@@ -262,10 +272,14 @@
 
 @media screen and (max-width: 490px) {
     .main-container {
-        margin-top: 1rem;
+        margin-top: 7.8rem;
 
     }
 
+    .first-top-width {
+        width: auto;
+        padding: 1rem;
+    }
 
     .first-mid-width {
         margin-bottom: 0;
@@ -292,30 +306,33 @@
         width: 9rem;
     }
     .top-sub-container {
-        /* flex-direction: column; */
-        width: 78%;
+        width: 100%;
     }
 
     .social-media-cards {
         margin: 0 auto;
         margin-top: 2.5rem;
-        height: 3em;
-        width: 3rem;
+        height: 4rem;
+        width: 4rem;
         border-radius: 7px;
     }
     /* Images for Social-Cards */
     .home-image-U {
-        width: 30px;
-        margin-top: 12px;
+        width: 45px;
+        margin-top: 15px;
     }
     
     .home-image {
-        width: 30px;
+        width: 45px;
         margin-top: 8px;
     }
     
     .main-social-image {
         border-radius: 50%;
+    }
+
+    .social-media-links {
+        width: 95%;
     }
     .social-media-header {
         width: 100%;
@@ -346,6 +363,210 @@
     .fav-episodes {
         width: 115px;
         height: 115px;
+    }
+    .episode-title {
+        font-size: 12px;
+        
+    }
+
+} 
+
+
+@media screen and (max-width: 392px) {
+    .main-container {
+        margin-top: 7.8rem;
+
+    }
+
+    .first-top-width {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .first-mid-width {
+        margin-bottom: 0;
+        margin-top: 4rem;
+
+    }
+    .sub-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin: 0 0 3rem;
+    }
+
+    .text-container > h2,h3,h5 { 
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        height: 0;
+        width: 100%;
+    }
+    .fix-image {
+        width: 9rem;
+    }
+    .top-sub-container {
+        width: 100%;
+    }
+
+    .social-media-cards {
+        margin: 0 auto;
+        margin-top: 2.5rem;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 7px;
+    }
+    /* Images for Social-Cards */
+    .home-image-U {
+        width: 45px;
+        margin-top: 15px;
+    }
+    
+    .home-image {
+        width: 45px;
+        margin-top: 8px;
+    }
+    
+    .main-social-image {
+        border-radius: 50%;
+    }
+
+    .social-media-links {
+        width: 95%;
+    }
+    .social-media-header {
+        width: 100%;
+
+    }
+    .social-media-header>h4 {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+    /* Yellow Slot */
+    .first-mid-width {
+        height: 330px;
+    }
+    .first-mid-width > h3 {
+        text-align: center;
+        border-bottom: 3px solid lightgray;
+    }
+    .mid-header {
+        font-size: 20px;
+        border-bottom: none;
+        width: 100%;
+        text-align: center;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 12px;
+    }
+    .fav-episodes {
+        width: 115px;
+        height: 115px;
+    }
+    .episode-title {
+        font-size: 12px;
+        
+    }
+
+} 
+
+
+@media screen and (max-width: 362px) {
+    .main-container {
+        margin-top: 7.8rem;
+
+    }
+
+    .first-top-width {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .first-mid-width {
+        margin-bottom: 0;
+        margin-top: 4rem;
+
+    }
+    .sub-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin: 0 0 3rem;
+    }
+
+    .text-container > h2,h3,h5 { 
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        height: 0;
+        width: 100%;
+    }
+    .fix-image {
+        width: 9rem;
+    }
+    .top-sub-container {
+        width: 100%;
+    }
+
+    .social-media-cards {
+        margin: 0 auto;
+        margin-top: 2.5rem;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 7px;
+    }
+    /* Images for Social-Cards */
+    .home-image-U {
+        width: 45px;
+        margin-top: 15px;
+    }
+    
+    .home-image {
+        width: 45px;
+        margin-top: 8px;
+    }
+    
+    .main-social-image {
+        border-radius: 50%;
+    }
+
+    .social-media-links {
+        width: 95%;
+    }
+    .social-media-header {
+        width: 100%;
+
+    }
+    .social-media-header>h4 {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+    /* Yellow Slot */
+    .first-mid-width {
+        height: 330px;
+    }
+    .first-mid-width > h3 {
+        text-align: center;
+        border-bottom: 3px solid lightgray;
+    }
+    .mid-header {
+        font-size: 20px;
+        border-bottom: none;
+        width: 100%;
+        text-align: center;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 12px;
+    }
+    .fav-episodes {
+        width: 105px;
+        height: 105px;
     }
     .episode-title {
         font-size: 12px;

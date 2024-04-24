@@ -1,8 +1,13 @@
 .nav-bar-main {
-    background: linear-gradient(to bottom right, #30353e, black);
+    background: linear-gradient(to bottom right,black, #30353e);;
     color: white;
     padding: 2rem 6rem;
-    box-shadow: 2px 2px 35px black;
+    /* box-shadow: 2px 2px 35px black; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-bar-links {
@@ -81,14 +86,9 @@
 #ucbp-logo {
     height: 5em;
     width: auto;
-    opacity: .5;
     transition: opacity 0.3s ease-in-out;
     margin-right: 1em;
-    border-radius: 10px;
-}
-
-#ucbp-logo:hover {
-    opacity: 1;
+    border-radius: 5px;
 }
 
 .connect-btn-link {

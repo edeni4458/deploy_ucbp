@@ -1,7 +1,8 @@
 
 /* About page */
 .container-About-main {
-    margin-top: 3em;
+    margin: 0 auto;
+    margin-top: 13rem;
 }
 
 .middle-container {
@@ -15,6 +16,8 @@
 .h4-margin {
     font-weight: bolder;
     text-align: left;
+    color:  #6E6362;
+    font-weight: 900;
 }
 
 .container-about {
@@ -54,21 +57,21 @@
     }
 }
 /* An Even Smaller Phone */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 378px) {
     
     .middle-container {
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
         margin-bottom: 5em;
     }
 
     .h4-margin {
-        font-size: 16px;
+        font-size: 22px;
         text-align: center;
     }
 
     .container-about {
-        width: 70%;
+        width: 100%;
         height: 15rem;
     }
 }

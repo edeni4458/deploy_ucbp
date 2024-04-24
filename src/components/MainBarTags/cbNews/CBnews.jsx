@@ -9,7 +9,6 @@ const CBnews = () => {
         <div className='mainCB-container'>
             <div className="news-container">
                 <h2 id='h2-margin'>C-B News</h2>
-                <hr />
                 <div className="top-header">
                     <p>The moment we have all been waiting for...</p>
                     <img src={delta} alt="Metal Gear Solid Delta Naked Snake" />

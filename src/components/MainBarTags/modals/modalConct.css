@@ -17,9 +17,10 @@
     width: 40%;
     height: 35rem;
     border-radius: 12px;
-    background-color: #30353e;
+    background-color: #7E9181;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 25px;
+    color: white;
 }
 
 .titleCloseBtn {
@@ -39,7 +40,7 @@
     height: 45px;
     margin: 10px;
     border: none;
-    background-color: cornflowerblue;
+    background-color: rgb(59, 123, 242);
     color: white;
     border-radius: 8px;
     font-size: 20px;
@@ -106,9 +107,14 @@ input {
 }
 
 .x-btn {
-    color: black;
-    font-family: monospace;
+    color: #2E3532;
     font-weight: 900;
+    transition: 0.9 ease-in;
+}
+.x-btn:hover {
+    color: white;
+    font-weight: 900;
+    transition: 0.9 ease-out;
 }
 
 

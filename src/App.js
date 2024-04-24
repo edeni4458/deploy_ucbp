@@ -5,7 +5,6 @@ import Connect from './components/MainBarTags/connect/Connect';
 import CBnews from './components/MainBarTags/cbNews/CBnews';
 import About from './components/MainBarTags/about/About';
 import Create from './components/MainBarTags/create/Create';
-import Spotify from './components/MainBarTags/ucbpEpisodes/Spotify';
 import UCBPepisodes from './components/MainBarTags/ucbpEpisodes/UCBPepisodes';
 import ThanksModal from './components/MainBarTags/modals/ThanksModal';
 import MainBar from './components/MainPageParts/mainBar/MainBar';
@@ -28,7 +27,6 @@ function App() {
         <Route exact path='/about' element={<About />} />
         <Route exact path='/connect' element={<Connect />} />
         <Route exact path='/news' element={<CBnews />} />
-        <Route exact path='/episodes' element={<Spotify />} />
         <Route exact path='/UCBP' element={<UCBPepisodes />} />
         <Route exact path='/thankyou' element={<ThanksModal />} />
       </Routes>

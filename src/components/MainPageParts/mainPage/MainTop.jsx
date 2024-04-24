@@ -24,7 +24,7 @@ const MainTop = () => {
     return (
 
         <div className="first-bot-width">
-            <h2 className='slider-title'>There's more to UCBP...</h2>
+            <h2 className='slider-title'>There's more...</h2>
             <div className="slider-container">
                 <Slider {...settings} className='slider-set-main'>
                     <div className='slider-set'>

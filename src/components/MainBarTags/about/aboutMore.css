@@ -4,22 +4,17 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    border-radius: 10px;
-    margin-bottom: 1em;
     height: 30em;
-    width: 80%;
-    background: linear-gradient(#30353eaf, black);
-    padding: 2em;
-    border: 2px solid gray;
+    width: 100%;
+    background-color: #5B6C5D;
+    padding: 5rem;
 }
 
-.mid-about-div:hover {
-    background-color: #30353e;
-}
 
 .subText > p {
     padding: 2rem;
     font-weight: bold;
+    color: white;
 }
 
 .support-text-container>h6 {
@@ -54,7 +49,7 @@
     }
 
     #img-size {
-        width: 17rem;
+        width: 20rem;
         height: 15rem;
         margin-bottom: 1rem;
     }
@@ -69,6 +64,7 @@
     .mid-about-div {
         flex-direction: column;
         height: 50rem;
+        padding: 2rem;
     }
 
     .subText > p {
@@ -77,7 +73,7 @@
     }
 
     #img-size {
-        width: 17rem;
+        width: 20rem;
         height: 15rem;
         margin-bottom: 1rem;
     }
