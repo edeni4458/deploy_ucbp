@@ -262,11 +262,16 @@
         margin: 0 auto;
     }
     .social-media-header>h4 {
-        font-size: 20px;
+        font-size: 29px;
+    }
+    .mid-header {
+        width:100%;
+        text-align: center;
     }
     .video-flex {
         flex-direction:row;
         gap: 5rem;
+        background-position:left;
     }
 }
 
@@ -339,7 +344,7 @@
 
     }
     .social-media-header>h4 {
-        font-size: 15px;
+        font-size: 22px;
         margin-top: 2rem;
     }
     /* Yellow Slot */
@@ -359,6 +364,7 @@
     .video-flex {
         flex-direction:row;
         gap: 12px;
+        background-position:left;
     }
     .fav-episodes {
         width: 115px;
@@ -441,7 +447,7 @@
 
     }
     .social-media-header>h4 {
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 2rem;
     }
     /* Yellow Slot */
@@ -461,6 +467,7 @@
     .video-flex {
         flex-direction:row;
         gap: 12px;
+        background-position:left;
     }
     .fav-episodes {
         width: 115px;
@@ -543,7 +550,7 @@
 
     }
     .social-media-header>h4 {
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 2rem;
     }
     /* Yellow Slot */
@@ -563,6 +570,7 @@
     .video-flex {
         flex-direction:row;
         gap: 12px;
+        background-position:left;
     }
     .fav-episodes {
         width: 105px;
