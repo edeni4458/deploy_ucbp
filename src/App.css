@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
 
 * {
@@ -12,9 +11,10 @@
 .App{
   text-align: center;
   background-color: white;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   /* background-image: url(./images/background\ image\ 4.jpg); */
   /* background-repeat: repeat-x; */
   /* background-size: cover; */
