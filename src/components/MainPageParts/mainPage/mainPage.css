@@ -225,7 +225,7 @@
     .mid-header {
         font-size: 25px;
         border-bottom: none;
-        /* width: 70%; */
+        width: 100%;
         margin: 0 auto;
         margin-top: 3rem;
     }
@@ -396,7 +396,7 @@
         height: 115px;
     }
     .episode-title {
-        font-size: 12px;
+        font-size: 15px;
         
     }
 
@@ -518,7 +518,7 @@
         height: 115px;
     }
     .episode-title {
-        font-size: 12px;
+        font-size: 15px;
         
     }
 
@@ -626,7 +626,7 @@
         border-bottom: 3px solid lightgray;
     }
     .mid-header {
-        font-size: 20px;
+        font-size: 19px;
         border-bottom: none;
         width: 100%;
         text-align: center;
@@ -641,7 +641,7 @@
         height: 105px;
     }
     .episode-title {
-        font-size: 12px;
+        font-size: 15px;
         
     }
 
