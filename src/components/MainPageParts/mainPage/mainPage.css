@@ -4,11 +4,14 @@
     margin-top: 10rem;
     height: 100%;
     width: 100%;
+    background-image: url(../../../images/ucbp-bg-img.png);
+    background-position:-120vmin;
+    background-repeat: no-repeat;
 }
 
 
 .first-top-width {
-    height: 32rem;
+    height: 25rem;
     width: 100%;
     margin: 0 auto;
     background: linear-gradient(to top right,black, #30353e);
@@ -181,7 +184,7 @@
 
 @media screen and (max-width: 1050px) {
     .first-top-width{
-        width: 85%;
+        /* width: 85%; */
         margin-bottom: 1rem;
     }
     .first-mid-width {
@@ -278,12 +281,14 @@
 @media screen and (max-width: 490px) {
     .main-container {
         margin-top: 7.8rem;
-
+        background-position:right;
     }
 
     .first-top-width {
         width: auto;
         padding: 1rem;
+        height: 36rem;
+        margin-bottom: 2rem;
     }
 
     .first-mid-width {
@@ -307,8 +312,28 @@
         height: 0;
         width: 100%;
     }
+    .text-container > h2 { 
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        height: 0;
+        width: 100%;
+    }
+    .text-container > h3 { 
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        /* margin-bottom: 7rem; */
+        height: 0;
+        width: 100%;
+    }
     .fix-image {
-        width: 9rem;
+        width: 15rem;
     }
     .top-sub-container {
         width: 100%;
@@ -381,7 +406,7 @@
 @media screen and (max-width: 392px) {
     .main-container {
         margin-top: 7.8rem;
-
+        background-position:right;
     }
 
     .first-top-width {
@@ -400,7 +425,6 @@
         gap: 5rem;
         margin: 0 0 3rem;
     }
-
     .text-container > h2,h3,h5 { 
         font-size: 12px;
         line-height: 25px;
@@ -410,8 +434,28 @@
         height: 0;
         width: 100%;
     }
+    .text-container > h2 { 
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        height: 0;
+        width: 100%;
+    }
+    .text-container > h3 { 
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        /* margin-bottom: 7rem; */
+        height: 0;
+        width: 100%;
+    }
     .fix-image {
-        width: 9rem;
+        width: 15rem;
     }
     .top-sub-container {
         width: 100%;
@@ -484,7 +528,7 @@
 @media screen and (max-width: 362px) {
     .main-container {
         margin-top: 7.8rem;
-
+        background-position:right;
     }
 
     .first-top-width {
@@ -513,8 +557,28 @@
         height: 0;
         width: 100%;
     }
+    .text-container > h2 { 
+        font-size: 25px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        height: 0;
+        width: 100%;
+    }
+    .text-container > h3 { 
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        /* margin-bottom: 7rem; */
+        height: 0;
+        width: 100%;
+    }
     .fix-image {
-        width: 9rem;
+        width: 15rem;
     }
     .top-sub-container {
         width: 100%;
