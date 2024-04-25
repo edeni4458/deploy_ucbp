@@ -1,6 +1,5 @@
 import podchaser from '../../..//images/podchaser.png'
 import instagram from '../../..//images/instagram.png'
-import google from '../../..//images/google-pods.png'
 import facebook from '../../..//images/fb-icon.png'
 import twitter from '../../..//images/twitter.png'
 import youtube from '../../..//images/youtube.png'
@@ -43,7 +42,6 @@ const Connect = () => {
                         <a href="https://www.youtube.com/@UnderTheCardboardBox" target='_blank' rel="noreferrer"><img className='socialMedia-image-U' src={youtube} alt="Youtube logo" /></a>
                         <a href="https://open.spotify.com/show/2aIiRya7gIuVEQ2MnPi7iY" target='_blank' rel="noreferrer"><img className='socialMedia-image' src={spotify} alt="Spotify logo" /></a>
                         <a href="https://www.podchaser.com/podcasts/under-the-cardboard-box-a-meta-69852" target='_blank' rel="noreferrer"><img className='socialMedia-image' src={podchaser} alt="Podchaser logo" /></a>
-                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly91bmRlcnRoZWNhcmRib2FyZGJveC5wb2RvbWF0aWMuY29tL3JzczIueG1s" target='_blank' rel="noreferrer"><img className='socialMedia-image' src={google} alt="Google logo" /></a>
                         <a href="https://podcasts.apple.com/us/podcast/under-the-cardboard-box-a-metal-gear-solid-podcast/id1059651069" target='_blank' rel="noreferrer"><img id='apple-img' className='socialMedia-image' src={apple} alt="Apple logo" /></a>
                     </div>
                 </div>

@@ -4,7 +4,6 @@ import { Container } from 'react-bootstrap'
 import youtube from '../../../images/youtube.png'
 import spotify from '../../../images/spotify.jpg'
 import apple from '../../../images/apple-vec.png'
-import google from '../../../images/google-pods.png'
 import podchaser from '../../../images/podchaser.png'
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
@@ -67,9 +66,6 @@ const MainPage = () => {
                     </div>
                     <div className="social-media-cards">
                         <a href="https://www.podchaser.com/podcasts/under-the-cardboard-box-a-meta-69852" target='_blank' rel="noreferrer"><img className='home-image' src={podchaser} alt="Podchaser logo" /></a>
-                    </div>
-                    <div className="social-media-cards">
-                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly91bmRlcnRoZWNhcmRib2FyZGJveC5wb2RvbWF0aWMuY29tL3JzczIueG1s" target='_blank' rel="noreferrer"><img className='home-image' src={google} alt="Google logo" /></a>
                     </div>
                     <div className="social-media-cards">
                         <a href="https://podcasts.apple.com/us/podcast/under-the-cardboard-box-a-metal-gear-solid-podcast/id1059651069" target='_blank' rel="noreferrer"><img id='apple-img' className='home-image' src={apple} alt="Apple logo" /></a>
